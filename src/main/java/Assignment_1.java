@@ -37,16 +37,11 @@ public class Assignment_1 {
 
         WebElement register = chromeDriver.findElement(By.name("register-button"));
         register.click();
-
-
     }
-
 
     public static void main(String[] args) {
         FirstTest taskDay = new FirstTest();
         WebDriver driver = taskDay.getWebsite();
         taskDay.doRegistration(driver);
-
-
     }
 }
